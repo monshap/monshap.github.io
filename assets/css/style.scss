@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#headshot {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 25px;
+}
+
+div.wrapper {
+    width: 100%;
+    float: center;
+}
+
+header {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    float: center;
+}
+footer p {
+    text-align: center;
+}
+
+@media print, screen and (max-width: 960px) {
+    header {
+        padding: 0;
+    }
+    footer p {
+        text-align: center;
+    }
+}

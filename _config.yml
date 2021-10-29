@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Monica Shapiro, Ph.D. Candidate
+logo: "/assets/mshapiro.jpg"
 email: mos57@pitt.edu
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,6 +29,7 @@ twitter_username: The_MatheMonica
 github_username:  monshap
 
 # Build settings
+remote_theme: pages-themes/minimal@v0.2.0
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
