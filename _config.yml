@@ -18,10 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Monica Shapiro, Ph.D. Candidate
+title: Monica E. Shapiro
 logo: "/assets/mshapiro.jpg"
 email: mos57@pitt.edu
-description: ""
+description: >-
+  Ph.D. Candidate with 4+ years experience being underpaid to do multiple
+  peoples' jobs
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: monshap.gitlab.io
 url: "https://monshap.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
