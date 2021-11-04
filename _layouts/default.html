@@ -25,7 +25,25 @@
             <div class="row justify-content-center">
                 <img class="ratio ratio-1x1 px-0" id="headshot" src="{{site.logo | relative_url}}" alt="Logo" />
             </div>
-            {% include leftpanel.html %}
+            <div class="row justify-content-center mt-2 mt-lg-3">
+                <h1 class="h6 fw-bold text-center">Contact</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <i class="fas fa-envelope d-inline-block"></i>
+                    <a class="d-inline-block" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </div>
+                <div class="col-auto">
+                    <i class="fas fa-mobile-alt d-inline-block"></i>
+                    <span class="d-inline-block">(617) 820-6253</span>
+                </div>
+                <div class="col-auto">
+                    <a href="/assets/CV_Shapiro.pdf">Resume PDF</a>
+                </div>
+            </div>
+            <div class="row justify-content-center d-none d-lg-block">
+                {% include leftpanel.html %}
+            </div>
         </div>
         {% endif %}
         <div class="col">
@@ -39,8 +57,12 @@
 
         </div>
       </div>
-      <div class="row">
-        <p class="text-center"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      <div class="row justify-content-center">
+        <div class="row justify-content-center d-block d-lg-none my-3
+                    pb-3 border-top border-bottom">
+            {% include leftpanel.html %}
+        </div>
+        <small class="text-center d-block">Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </div>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
