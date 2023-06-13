@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Monica E. Shapiro
+title: Monica E. Shapiro, Ph.D.
 logo: "/assets/headshot-10-31-21.JPG"
-email: mos57@pitt.edu
+email: monica.shapiro@pfizer.com
 description: >-
-  Ph.D. Candidate with 5+ years experience in dynamic and statistical modeling
-  looking for a full-time research position using mathematical modeling.
+  Postdoctoral Research Fellow at Pfizer using in silico models to study
+  interpatient variability in response to LNP mRNA therapies
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: monshap.gitlab.io
 url: "https://monshap.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
