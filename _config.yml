@@ -22,8 +22,9 @@ title: Monica E. Shapiro, Ph.D.
 logo: "/assets/headshot-10-31-21.JPG"
 email: monica.shapiro@pfizer.com
 description: >-
-  Postdoctoral Research Fellow at Pfizer using in silico models to study
-  interpatient variability in response to LNP mRNA therapies
+  Postdoctoral Research Fellow at Pfizer developing QSP models to study
+  sources of interpatient variability in response to lipid nanoparticle-mRNA
+  therapies
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: monshap.gitlab.io
 url: "https://monshap.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
